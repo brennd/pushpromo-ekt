@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin: 0;
+	outline: none;
+	padding: 0;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+body {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: white;
+}
+h1 {
+	font-weight: 600;
+	color: #CA2D2B;
+	text-align: center;
+}
+#header {
+	z-index: 9999;
+	height: 60px;
+	padding: 15px;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
